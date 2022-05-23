@@ -1,3 +1,4 @@
 composer.phar
 vendor
 testsdata/phpunit_*
+.idea/

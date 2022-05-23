@@ -18,19 +18,20 @@
     },
     "require": {
         "php": ">=5.4",
-        "symfony/yaml": "^2.8",
+        "ext-yaml": "*",
         "ext-json": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.8",
-        "clagiordano/phpunit-result-printer": "^1",
-        "php-coveralls/php-coveralls": "^1.1"
+        "phpunit/phpunit": "^8.0"
     },
     "autoload-dev": {
         "psr-4": {
             "clagiordano\\weblibs\\configmanager\\tests\\": "tests/",
             "clagiordano\\weblibs\\configmanager\\testdata\\": "testdata/"
         }
+    },
+    "replace": {
+        "clagiordano/weblibs-configmanager": "^1.0"
     },
     "scripts": {
         "test": [
@@ -45,7 +46,7 @@
     },
     "config": {
         "platform": {
-            "php": "5.4"
+            "php": "8.0"
         }
     }
 }
