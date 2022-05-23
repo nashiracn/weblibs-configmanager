@@ -1,5 +1,5 @@
 {
-    "name": "clagiordano/weblibs-configmanager",
+    "name": "zxedu/weblibs-configmanager",
     "description": "weblibs-configmanager is a tool library for easily read and access to php config array file and direct read/write configuration file / object",
     "type": "library",
     "license": "LGPL-3.0-or-later",
